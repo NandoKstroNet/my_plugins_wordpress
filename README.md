@@ -1,4 +1,4 @@
-my_plugins_wordpress
+My plugins wordpress
 ====================
 
 My Plugins Wordpress
