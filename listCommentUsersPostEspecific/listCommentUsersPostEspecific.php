@@ -9,7 +9,7 @@ add_shortcode('lista_usuarios_sorteio', 'runListCommentUsersPostEspecific');
 //Start the function listaUsersPromotion
 function runListCommentUsersPostEspecific() 
 {
-  listCommentUsersPostEspecific('523');
+  listCommentOfUsersOfEspecificsPost('523');
 }
  
 /**
@@ -20,7 +20,7 @@ function runListCommentUsersPostEspecific()
  * at a  article determined at wordpress! #####
 **/
  
-function listCommentUsersPostEspecific($postId) 
+function listCommentOfUsersOfEspecificsPost($postId) 
 {
 	global $wpdb;
  
